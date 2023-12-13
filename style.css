@@ -1,0 +1,103 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F2937;
+}
+
+body {
+    /* display: flex; */
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    
+ 
+}
+
+/* Header */
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ padding: 8px;
+ color: whitesmoke;
+ margin-left: 225px;
+ margin-right: 225px;
+
+}
+
+ul {
+    /* remover pontos da lista */
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    
+}
+
+a {
+    /* remover sublinhado */
+    text-decoration: none;
+    /* adicionar cor aos links */
+    color: whitesmoke;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  
+}
+
+
+
+/*Banner depois do titulo*/
+.bot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 225px;
+    margin-right: 225px;
+    max-height: 200;
+   
+}
+
+.column_1{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    text-align: start;
+    padding-top: 100px;
+    
+}
+
+.column_2{
+    display: flex;
+    padding-top: 100px;
+}
+
+.title_1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.text_1 {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    font-weight: bold;
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+.image_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 200px;
+    height: 200;
+}
