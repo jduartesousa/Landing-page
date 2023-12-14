@@ -21,7 +21,7 @@ body {
  color: whitesmoke;
  margin-left: 225px;
  margin-right: 225px;
-
+ 
 }
 
 ul {
@@ -55,7 +55,8 @@ a {
     justify-content: space-evenly;
     margin-left: 225px;
     margin-right: 225px;
-    max-height: 200;
+    max-height: 400;
+    margin-bottom: 0;
    
 }
 
@@ -65,12 +66,14 @@ a {
     max-width: 500px;
     text-align: start;
     padding-top: 100px;
+    padding-bottom: 50px;
     
 }
 
 .column_2{
     display: flex;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .title_1 {
@@ -97,7 +100,93 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: lightgray;
     width: 200px;
     height: 200;
+}
+
+/*Conteudo cinzento abaixo do Banner*/
+
+.section {
+    margin-top: 0px;
+    margin-left: 225px;
+    margin-right: 225px;
+    background-color: #E5E7EB;
+}
+
+.title_2 {
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 32px;
+    background-color: #E5E7EB;
+}
+
+.main_container {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 50px;
+    background-color: #E5E7EB;
+   
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+img {
+    border-radius: 8px;
+    width: 150px;
+    height: 200px;
+}
+
+.text_2 {
+    background-color: #E5E7EB;
+}
+
+/*Quote section dentro da secção anterior*/
+
+.quote_section {
+    display: flex;
+    background-color: lightgray;
+    margin-top: 100px;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+    
+}
+
+.quote {
+    /*background-color: lightgray;*/
+    /*display: flex;*/
+
+    text-align: start;
+    background-color: lightgray;
+    max-width: 800px;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    background-color: lightgray;
+    align-content: end;
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
